@@ -28,13 +28,19 @@ p {
 nav,
 #credits {
   background-color: black;
-  height: 60px;
-  /* Your code goes here */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  width: 500px;
-  /* Your code goes here */
+  max-width: 900px;
+  margin: 0 auto; /* Center the container */
+}
+
+.container div {
+  margin-right: 20px; /* Adjust the spacing between navigation options */
 }
 
 .button {
